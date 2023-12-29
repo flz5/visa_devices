@@ -1,0 +1,21 @@
+
+[project]
+name = "libVisaDevices"
+authors = [
+    {name = "Frank Zimdars", email = "frank.zimdars@cx5.eu"},
+]
+version = "0.1.0"
+description = "Python wrapper for libVisaDevices"
+readme = "readme.md"
+requires-python = ">=3.9"
+keywords = ["one", "two"]
+license = {text = "GNU General Public License 3"}
+classifiers = [
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+]
+
+[build-system]
+requires = ["setuptools >= 65", "wheel<=0.38"]
+build-backend = "setuptools.build_meta"
+

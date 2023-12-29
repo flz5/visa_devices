@@ -1,0 +1,58 @@
+site_name: VisaDevices
+
+nav:
+  - Index:
+    - Overview: 'index.md'
+    - VISA Interface: 'index_visa.md'
+  - Library:
+    - Architecture: 'lib_architecture.md'
+    - Plattforms: 'lib_plattforms.md'
+  - Devices:
+    - Power supplies: 'lib_devices_supplies.md'
+    - Multimeter: 'lib_devices_multimeter.md'
+    - Oscilloscopes: 'lib_devices_oscilloscopes.md'
+    - Electronic loads: 'lib_devices_electronic_loads.md'
+    - Signal generatos: 'lib_devices_signal_generators.md'
+    - Spectrum analyzer: 'lib_devices_spectrum_analyzer.md'
+    - Network analyzer: 'lib_devices_network_analyzer.md'
+    - Other: 'lib_devices_other.md'
+  - Generic drivers:
+      - General: 'lib_generic.md'
+      - Power supply: 'lib_generic_power_supply.md'
+      - Multimeter: 'lib_generic_multimeter.md'
+      - Electronic load: 'lib_generic_electronic_load.md'
+      - Oscilloscope: 'lib_generic_oscilloscope.md'
+      - Signal generator: 'lib_generic_signal_generator.md'
+      - Spectrum analyzer: 'lib_generic_spectrum_analyzer.md'
+      - Network analyzer: 'lib_generic_network_analyzer.md'
+  - Examples:
+    - C: 'lib_example_c.md'
+    - Matlab: 'lib_example_matlab.md'
+    - Python: 'lib_example_py.md'
+  - Applications:
+      - Command: 'app_command.md'
+      - CurveTracer: 'app_curvetracer.md'
+      - Waveform: 'app_wfmdmp.md'
+      - Python wrapper: 'app_python_whl.md'
+  - About: 
+     - License: 'about_license.md'
+     - Changelog: 'about_changelog.md'
+     
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - admonition
+  
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.footer
+
+plugins: 
+    - offline
+
+
+
