@@ -32,7 +32,7 @@ EXPORT void NADummy_set_span_lh(VisaHandle* handle, uint32_t channel, double low
 
 }
 EXPORT double* NADummy_get_waveform(VisaHandle* handle, uint32_t channel){
-
+        return nullptr;
 }
 
 EXPORT void NADummy_save_waveform(VisaHandle* handle, uint32_t channel, char *filename){
